@@ -1,0 +1,33 @@
+{
+    "name": "tijs",
+    "license": "Apache-2.0",
+    "version": "0.0.1",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsup src/index.ts --format cjs,esm --dts",
+        "lint": "eslint '**/*.ts'"
+    },
+    "devDependencies": {
+        "@semantic-release/git": "^10.0.1",
+        "@semantic-release/github": "^10.0.3",
+        "@semantic-release/npm": "^12.0.0",
+        "@types/node": "^20.12.7",
+        "@typescript-eslint/eslint-plugin": "^5.62.0",
+        "@typescript-eslint/parser": "^5.62.0",
+        "eslint": "8.32.0",
+        "eslint-config-prettier": "8.6.0",
+        "eslint-plugin-prettier": "4.2.1",
+        "globals": "^15.0.0",
+        "nodemon": "^3.1.0",
+        "prettier": "2.8.3",
+        "semantic-release": "^23.0.8",
+        "ts-node": "^10.9.2",
+        "tsup": "^8.0.2",
+        "typescript": "^5.4.5"
+    },
+    "dependencies": {
+        "@msgpack/msgpack": "3.0.0-beta2"
+    }
+}
