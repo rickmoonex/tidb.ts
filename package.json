@@ -2,6 +2,12 @@
     "name": "tijs",
     "license": "Apache-2.0",
     "version": "0.0.1",
+    "homepage": "https://github.com/rickmoonex/tijs",
+    "author": "Rick Moonen (https://github.com/rickmoonex)",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rickmoonex/tijs.git"
+    },
     "main": "dist/index.js",
     "module": "dist/index.mjs",
     "types": "dist/index.d.ts",
