@@ -42,7 +42,7 @@ We can introduce type safety when calling the `query` and `run` methods.
 
 ```ts
 const response = ti.query<string>("@:collection", '"Hello World!";');
-// typeof response = string
+// the type of `response` will be string
 console.log(response);
 // Hello World!
 ```
