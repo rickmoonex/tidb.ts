@@ -1,10 +1,10 @@
-# tiJS
+# TiDB.ts
 
 ## **This project is still WIP**
 
 ## Description
 
-tiJS is a NodeJS library that can be used to communicate with ThingsDB's TCP socket. It gives a type-save way of data access and manipulation.
+TiDB.ts is a NodeJS TypeScript library that can be used to communicate with ThingsDB's TCP socket. It gives a type-save way of data access and manipulation.
 
 ## Requirements
 
@@ -16,7 +16,7 @@ tiJS is a NodeJS library that can be used to communicate with ThingsDB's TCP soc
 Getting started is easy, just install with NPM:
 
 ```bash
-npm i tijs
+npm i tidb.ts
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ The `ThingsDB` class provides an interface with the ThingsDB TCP socket.
 ## Example
 
 ```ts
-import { ThingsDB } from "tijs";
+import { ThingsDB } from "tidb.ts";
 
 const ti = new ThingsDB();
 await ti.auth("admin", "pass");
