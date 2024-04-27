@@ -1,12 +1,12 @@
 {
-    "name": "tijs",
+    "name": "tidb.ts",
     "license": "Apache-2.0",
-    "version": "1.0.0",
-    "homepage": "https://github.com/rickmoonex/tijs",
+    "version": "0.0.1",
+    "homepage": "https://github.com/rickmoonex/tidb.ts",
     "author": "Rick Moonen (https://github.com/rickmoonex)",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/rickmoonex/tijs.git"
+        "url": "git+https://github.com/rickmoonex/tidb.ts.git"
     },
     "main": "dist/index.js",
     "module": "dist/index.mjs",
